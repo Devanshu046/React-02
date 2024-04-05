@@ -1,18 +1,11 @@
 import React from "react";
 import "./App.css";
-import ComponentC from "./component/ComponentC";
-
-export const UserContext = React.createContext();
-export const ChannelContext = React.createContext();
+import CounterThree from "./component/CounterThree";
 
 function App() {
   return (
     <div className="App">
-      <UserContext.Provider value={"Devanshu"}>
-        <ChannelContext.Provider value={"parmar"}>
-          <ComponentC />
-        </ChannelContext.Provider>
-      </UserContext.Provider>
+      <CounterThree />
     </div>
   );
 }
