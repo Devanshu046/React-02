@@ -1,11 +1,13 @@
-
 import './App.css';
-import Counter from './components/Counter';
+import ClassTimer from './useRefComp/ClassTimer';
+import HookTimer from './useRefComp/HookTimer';
+
 
 function App() {
   return (
     <div className="App">
-     <Counter/>
+      <ClassTimer/>
+     <HookTimer/>
     </div>
   );
 }
